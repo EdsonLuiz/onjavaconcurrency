@@ -1,0 +1,31 @@
+package org.example.concurrent;
+
+import org.example.onjava.Timer;
+
+import java.util.List;
+import java.util.Map;
+
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
+import static java.util.stream.IntStream.iterate;
+import static java.util.stream.IntStream.rangeClosed;
+
+public class ParallelPrime {
+    static final int COUNT = 100_000;
+    public static boolean isPrime(long n) {
+        return rangeClosed(2, (int) Math.sqrt(n))
+                .noneMatch(i -> n % i == 0);
+    }
+
+    public static void main(String[] args) {
+        Timer timer = new Timer();
+        List<String> primes = iterate(2, i -> i + 1)
+                .parallel()
+                .filter(ParallelPrime::isPrime)
+                .limit(COUNT)
+                .mapToObj(Long::toString)
+                .collect(Collectors.toList());
+        System.out.println(timer.duration());
+    }
+}
