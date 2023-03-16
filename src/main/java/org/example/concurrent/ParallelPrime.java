@@ -2,6 +2,10 @@ package org.example.concurrent;
 
 import org.example.onjava.Timer;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.List;
 import java.util.Map;
 
@@ -18,7 +22,7 @@ public class ParallelPrime {
                 .noneMatch(i -> n % i == 0);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Timer timer = new Timer();
         List<String> primes = iterate(2, i -> i + 1)
                 .parallel()
@@ -27,5 +31,6 @@ public class ParallelPrime {
                 .mapToObj(Long::toString)
                 .collect(Collectors.toList());
         System.out.println(timer.duration());
+        Files.write(Paths.get("primes.txt"), primes, StandardOpenOption.CREATE);
     }
 }

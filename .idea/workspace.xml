@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44c538e7-c630-4bf1-b58d-291b023e490e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/ParallelPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/onjava/Timer.java" afterDir="false" />
+    <list default="true" id="44c538e7-c630-4bf1-b58d-291b023e490e" name="Changes" comment="feat: ParallelPrime">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/concurrent/ParallelPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/ParallelPrime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +40,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ParallelPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.concurrent.ParallelPrime" />
@@ -79,6 +76,34 @@
       <option name="presentableId" value="Default" />
       <updated>1678875084123</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: add extra files">
+      <created>1678876841587</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678876841587</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: create timer util">
+      <created>1678876855313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678876855313</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: ParallelPrime">
+      <created>1678876867562</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678876867562</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add extra files" />
+    <MESSAGE value="feat: create timer util" />
+    <MESSAGE value="feat: ParallelPrime" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: ParallelPrime" />
   </component>
 </project>
