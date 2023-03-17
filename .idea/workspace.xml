@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44c538e7-c630-4bf1-b58d-291b023e490e" name="Changes" comment="feat: ParallelPrime">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="44c538e7-c630-4bf1-b58d-291b023e490e" name="Changes" comment="feat: ParallelPrime&#10;&#10;add output to file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/Summing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/concurrent/ParallelPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/concurrent/ParallelPrime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Summing">
     <configuration name="ParallelPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.concurrent.ParallelPrime" />
       <module name="onjavaconcurrency" />
@@ -61,8 +60,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Summing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.concurrent.Summing" />
+      <module name="onjavaconcurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Summing" />
         <item itemvalue="Application.ParallelPrime" />
       </list>
     </recent_temporary>
@@ -97,13 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678876867562</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: ParallelPrime&#10;&#10;add output to file">
+      <created>1678962748553</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678962748553</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add extra files" />
     <MESSAGE value="feat: create timer util" />
     <MESSAGE value="feat: ParallelPrime" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: ParallelPrime" />
+    <MESSAGE value="feat: ParallelPrime&#10;&#10;add output to file" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: ParallelPrime&#10;&#10;add output to file" />
   </component>
 </project>
